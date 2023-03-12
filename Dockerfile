@@ -1,5 +1,5 @@
 FROM centos:centos7
-MAINTAINER syju
+MAINTAINER dhamo
 LABEL tomcat=v9.0.65
 RUN yum -y install wget && \
     yum -y install unzip
